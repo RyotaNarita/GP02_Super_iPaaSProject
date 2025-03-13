@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/RyotaNarita
   gitUsername: RyotaNarita
   gitBranch: main
+services:
+- serviceName: project.gp02_super_ipaas.integrations:testservice
+  packages:
+  - name: GP02_Super_iPaaSProject
+    version: "1.0"
+- serviceName: pub.date:dateTimeBuild
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2028
